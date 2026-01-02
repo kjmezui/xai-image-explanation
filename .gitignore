@@ -1,0 +1,23 @@
+# Environnements virtuels
+myvenv/
+venv/
+env/
+.venv/
+
+# Données téléchargées
+data/
+checkpoints/
+logs/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Fichiers volumineux
+*.dylib
+*.so
+*.pyd
+*.tar.gz

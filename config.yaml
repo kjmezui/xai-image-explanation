@@ -1,0 +1,11 @@
+training:
+  batch_size: 128
+  num_epochs: 5
+  learning_rate: 0.001
+  dataset_name: "cifar10"
+  checkpoint_path: "checkpoints/resnet18_cifar10.pth"
+
+xai:
+  num_lime_samples: 500
+  gradcam_layer: "layer4"
+  saliency_target: "predicted"
